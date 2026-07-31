@@ -80,9 +80,9 @@ float movement = Mathf.PingPong(Time.time * moveSpeed, moveDistance) - moveDista
 transform.position = startPos + new Vector3(movement, 0, 0);
 ### Output:
 
+<img width="1600" height="899" alt="WhatsApp Image 2026-07-31 at 20 06 28" src="https://github.com/user-attachments/assets/f80f63bf-4a03-4f51-9115-f7904138c7a8" />
 
 
-<img width="1600" height="899" alt="WhatsApp Image 2026-07-31 at 20 06 28" src="https://github.com/user-attachments/assets/3a5fd371-39f8-48a4-b04a-6c04f91c3edf" />
 
 
 
