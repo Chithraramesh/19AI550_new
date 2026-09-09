@@ -4,22 +4,21 @@
 ### AIM: 
 To design and develop a simple 3D Coin Collector game using Unity, where the player moves using keyboard controls, collects coins, maintains a score, and displays a YOU WIN! message after collecting all coins.
 ### Algorithm:
-```
-1.Start Unity and create a 3D game project.
-2.Create a ground using a Plane.
-3.Create a Player using a Capsule.
-4.Add Rigidbody and Collider components to the Player.
-5.Create a C# script to control Player movement using W, A, S, D keys.
-6.Create five coin objects using Cylinders.
-7.Add a C# script to rotate and collect the coins.
-8.Set the coin colliders as Triggers.
-9.Create a Canvas and add a score text displaying Coins: 0.
-10.Create a GameManager to update the score whenever a coin is collected.
-11.Display YOU WIN! when all five coins are collected.
-12.Test the game in Unity.
-13.Save the Unity project.
-14.Upload the project to the required GitHub repository.
-```  
+1.Start Unity and create a 3D game project.  
+2.Create a ground using a Plane.  
+3.Create a Player using a Capsule.  
+4.Add Rigidbody and Collider components to the Player.  
+5.Create a C# script to control Player movement using W, A, S, D keys.  
+6.Create five coin objects using Cylinders.  
+7.Add a C# script to rotate and collect the coins.  
+8.Set the coin colliders as Triggers.   
+9.Create a Canvas and add a score text displaying Coins: 0.  
+10.Create a GameManager to update the score whenever a coin is collected.  
+11.Display YOU WIN! when all five coins are collected.  
+12.Test the game in Unity.    
+13.Save the Unity project.  
+14.Upload the project to the required GitHub repository.  
+  
 ### Program:
 ## 1.PlayerMovement.cs
 ```
